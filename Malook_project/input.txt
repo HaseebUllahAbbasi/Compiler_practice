@@ -1,0 +1,3 @@
+public static main(int a){
+   System.out.println("hellow");
+}

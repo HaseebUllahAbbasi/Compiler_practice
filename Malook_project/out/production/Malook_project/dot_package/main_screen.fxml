@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="563.0" prefWidth="593.0" style="-fx-background-color: lightblue;" styleClass="button" stylesheets="@style.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dot_package.Controller">
+   <children>
+      <Button id="check" layoutX="129.0" layoutY="282.0" mnemonicParsing="false" onAction="#parser" prefHeight="25.0" prefWidth="343.0" style="-fx-border-radius: 20px; -fx-background-color: lightgreen; -fx-border-color: black;" stylesheets="@style.css" text="Parse" />
+      <TextArea fx:id="input_screen" layoutX="25.0" layoutY="67.0" prefHeight="200.0" prefWidth="527.0" stylesheets="@style.css" />
+      <Label layoutX="214.0" prefHeight="43.0" prefWidth="150.0" stylesheets="@style.css" text="Java Parser">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Label layoutX="29.0" layoutY="43.0" stylesheets="@style.css" text="Write Code Here:">
+         <font>
+            <Font name="System Italic" size="15.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="output_screen" editable="false" layoutX="27.0" layoutY="336.0" prefHeight="200.0" prefWidth="527.0" stylesheets="@style.css" />
+      <Label layoutX="31.0" layoutY="312.0" stylesheets="@style.css" text="Output Screen:">
+         <font>
+            <Font name="System Italic" size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
